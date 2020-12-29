@@ -10,10 +10,13 @@
 </template>
 
 <script>
+  import {mapState} from 'vuex'
   export default {
     // 接收组件声明,接收String类型的title
     props: {
       title: String
+    },
+    computed: {
     }
 
   }
